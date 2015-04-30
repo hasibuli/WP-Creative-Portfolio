@@ -20,7 +20,7 @@ The plugin is designed for portfolio site. "WP Creative Portfolio" is a free wor
 
 * Go to your Dashboard after installation and navigate to "Portfolio >> Portfolio Settings" to configure the portfolio.
 * Open wp-creative-portfolio.php file to change your display content number word(line no 164 & 171). Just change value of <?php echo excerpt(10); ?>.
-* View live demo & support page of this plugin [http://www.e2soft.com/blog/wp-creative-portfolio/](http://www.e2soft.com/blog/wp-creative-portfolio/).
+* View live demo & support page of this plugin [WP Creative Portfolio](http://www.e2soft.com/blog/wp-creative-portfolio/).
 
 = Features =
 
