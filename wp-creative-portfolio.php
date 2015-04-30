@@ -3,7 +3,7 @@
   Plugin Name: WP Creative Portfolio
   Plugin URI: http://www.e2soft.com/blog/wp-creative-portfolio/
   Description: WordPress Portfolio Plugin is a wordpress portfolio plugin. Use this shortcode <strong>[CREATIVE-PORTFOLIO]</strong> in the post/page" where you want to display slider.
-  Version: 1.0
+  Version: 1.1
   Author: S M Hasibul Islam
   Author URI: http://www.e2soft.com
   Copyright: 2015 S M Hasibul Islam http:/`/www.e2soft.com

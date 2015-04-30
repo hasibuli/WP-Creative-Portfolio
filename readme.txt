@@ -3,8 +3,8 @@ Contributors: csehasib, e2soft
 Donate link: http://www.e2soft.com/
 Tags: portfolio slider, portfolio plugins, wp portfolio, responsive portfolio, portfolio, portfolio gallery, best portfolio plugin, wordpress portfolio plugin, creative portfolio.
 Requires at least: 4.0
-Tested up to: 4.1.1
-Stable tag: 1.0
+Tested up to: 4.2.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,13 +13,14 @@ WP Creative Portfolio is a wordpress portfolio plugin. Use this shortcode [CREAT
 == Description ==
 WP Creative Portfolio is a wordpress portfolio plugin. Use this shortcode [CREATIVE-PORTFOLIO] in the post/page" where you want to display portfolio! 
 
-The plugin is designed for portfolio site. "WP Creative Portfolio" is a free wordpress plugin.
+The plugin is designed for portfolio site. "WP Creative Portfolio" is a free wordpress plugin. 
 
 
 = Usage =
 
 * Go to your Dashboard after installation and navigate to "Portfolio >> Portfolio Settings" to configure the portfolio.
 * Open wp-creative-portfolio.php file to change your display content number word(line no 164 & 171). Just change value of <?php echo excerpt(10); ?>.
+* View live demo & support page of this plugin [http://www.e2soft.com/blog/wp-creative-portfolio/](http://www.e2soft.com/blog/wp-creative-portfolio/).
 
 = Features =
 
@@ -54,6 +55,7 @@ Yes.
 
 == Changelog ==
 1.0: News version.
+1.1: Fix some style.
 
 == Upgrade notice ==
 Full capabilities post types.

@@ -113,7 +113,7 @@
 .ca-content ul li {
 	float: left;
 	margin: 0px 2px;
-	list-style: none;
+	list-style: none !important;
 }
 .ca-content ul li a {
 	color: #2980b9;
