@@ -3,8 +3,8 @@ Contributors: csehasib, e2soft
 Donate link: http://www.e2soft.com/
 Tags: portfolio slider, portfolio plugins, wp portfolio, responsive portfolio, portfolio, portfolio gallery, best portfolio plugin, wordpress portfolio plugin, creative portfolio.
 Requires at least: 4.0
-Tested up to: 4.2.1
-Stable tag: 1.1
+Tested up to: 4.3
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,8 +54,16 @@ Yes.
 3. Single Item
 
 == Changelog ==
-1.0: News version.
-1.1: Fix some style.
+
+= 1.5 =
+
+* Compatible with WP 4.3 version.
+
+
+= 1.0 =
+
+* News version.
+
 
 == Upgrade notice ==
 Full capabilities post types.

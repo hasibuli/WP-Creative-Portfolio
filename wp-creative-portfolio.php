@@ -3,7 +3,7 @@
   Plugin Name: WP Creative Portfolio
   Plugin URI: http://www.e2soft.com/blog/wp-creative-portfolio/
   Description: WordPress Portfolio Plugin is a wordpress portfolio plugin. Use this shortcode <strong>[CREATIVE-PORTFOLIO]</strong> in the post/page" where you want to display slider.
-  Version: 1.1
+  Version: 1.5
   Author: S M Hasibul Islam
   Author URI: http://www.e2soft.com
   Copyright: 2015 S M Hasibul Islam http:/`/www.e2soft.com
@@ -161,14 +161,14 @@ function e_portfolio_content(){
         <?php $ewp_img = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full', true ); ?>
         <img src="<?php echo $ewp_img[0]; ?>" alt="<?php the_title(); ?>">
         <h3><?php the_title(); ?></h3>
-        <p><span><?php echo excerpt(10); ?></span></p>
+        <p><span><?php echo e_excerpt(10); ?></span></p>
         <div class="ca-more-wrap"><a class="ca-more" href="<?php the_permalink(); ?>">More...</a></div>
         </div>
         <div class="ca-content-wrapper">
         <div class="ca-content">
         <a href="#" class="ca-close">Close</a>
         <div class="ca-content-text">
-        <?php echo content(100); ?>
+        <?php echo e_content(100); ?>
         <br />
         <a class="more-link" href="<?php the_permalink(); ?>">More...</a>
         </div>
@@ -239,7 +239,7 @@ function ewp_plugin_redirect() {
 }
 
 // Custom Excerpt 
-function excerpt($limit) {
+function e_excerpt($limit) {
 	$post_type = get_post_type( get_the_ID() );
 	if ( $post_type == 'portfolio' ) {
 		$excerpt = explode(' ', get_the_excerpt(), $limit);
@@ -255,7 +255,7 @@ function excerpt($limit) {
 }
 
 // Custom Content 
-function content($limit) {
+function e_content($limit) {
 	$post_type = get_post_type( get_the_ID() );
 	if ( $post_type == 'portfolio' ) {
 		$content = explode(' ', get_the_content(), $limit);
