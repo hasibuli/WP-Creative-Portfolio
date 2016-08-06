@@ -42,16 +42,6 @@ The plugin is designed for portfolio site. "WP Creative Portfolio" is a free wor
 3. Just copy and paste " <strong>[CREATIVE-PORTFOLIO]</strong> in the post/page" where you want to display portfolio.
 4. Open wp-creative-portfolio.php file to change your display content number word. Just change value of <?php echo excerpt(10); ?>.
 
-== Frequently asked questions ==
-= Can it possible to use throw shordcode? =
-Yes.
-= Could it possible to places this ticker on post or page? =
-Yes.
-
-== Screenshots ==
-1. Portfolio Settings
-2. All Item
-3. Single Item
 
 == Changelog ==
 
