@@ -1,28 +1,20 @@
-﻿=== WP Creative Portfolio ===
-Contributors: csehasib, e2soft
-Donate link: http://www.e2soft.com/
-Tags: portfolio slider, portfolio plugins, wp portfolio, responsive portfolio, portfolio, portfolio gallery, best portfolio plugin, wordpress portfolio plugin, creative portfolio.
-Requires at least: 4.0
-Tested up to: 4.3
-Stable tag: 1.5
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# === WP Creative Portfolio ===
 
 WP Creative Portfolio is a wordpress portfolio plugin. Use this shortcode [CREATIVE-PORTFOLIO] in the post/page" where you want to display portfolio! 
 
-== Description ==
+#== Description ==
 WP Creative Portfolio is a wordpress portfolio plugin. Use this shortcode [CREATIVE-PORTFOLIO] in the post/page" where you want to display portfolio! 
 
 The plugin is designed for portfolio site. "WP Creative Portfolio" is a free wordpress plugin. 
 
 
-= Usage =
+#= Usage =
 
 * Go to your Dashboard after installation and navigate to "Portfolio >> Portfolio Settings" to configure the portfolio.
 * Open wp-creative-portfolio.php file to change your display content number word(line no 164 & 171). Just change value of <?php echo excerpt(10); ?>.
 * View live demo & support page of this plugin [WP Creative Portfolio](http://www.e2soft.com/blog/wp-creative-portfolio/).
 
-= Features =
+#= Features =
 
   * Very easy installation
   * Shortcode system
@@ -35,7 +27,7 @@ The plugin is designed for portfolio site. "WP Creative Portfolio" is a free wor
   * Fully Custom post type & custom settings.
 
 
-== Installation ==
+#== Installation ==
 1. Upload `wp-creative-portfolio` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Click on the new menu item "Portfolio" and create your portfolio.
@@ -43,7 +35,7 @@ The plugin is designed for portfolio site. "WP Creative Portfolio" is a free wor
 4. Open wp-creative-portfolio.php file to change your display content number word. Just change value of <?php echo excerpt(10); ?>.
 
 
-== Changelog ==
+#== Changelog ==
 
 = 1.5 =
 
